@@ -1,0 +1,59 @@
+#Aboutus{
+    padding-top: 5%;
+    scroll-behavior: smooth;
+  
+}
+.container-aboutus{
+   
+    padding:1% 15% 0% 15%;
+    margin:0% 0% 0% 0%;
+    color:    black;
+     background-color: #F0F0F0;
+     text-align: center;
+    
+}
+#aboutus-header p{
+    font-size : 120%;
+    animation-name:aboutus-header;
+    animation-duration:3s;
+    animation-fill-mode: forwards;
+}
+@keyframes aboutus-header{
+    0% {left:-50px;}
+    100% {
+        left:200px;
+    }
+}
+.effect-aboutus{
+    animation-name:indentp;
+    animation-duration:13s;
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes indentp {
+   
+    50% {padding-left:250px;}
+  
+}
+@keyframes indentp {
+    
+    50% {padding-left:250px;}
+    
+}
+.about-us .About{
+    font-family: Calibri Light (Headings);
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .SlantedA {
+        width:400px;
+        height:370px;
+       padding-top: 10px;
+       padding-right:30px;
+       flex-direction: column;
+    }
+    .SlantedA h2{
+        margin-left:40%
+    }
+  }

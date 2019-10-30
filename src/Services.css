@@ -1,0 +1,136 @@
+.section-title{
+    padding-left: -5%;
+}
+#Services{
+    padding-top: 5%;
+    scroll-behavior: smooth;
+  
+}
+.services{
+    margin-top : -0;
+    padding : 0;
+    font-family : "montserrat", sans-serif;
+    box-sizing: border-box;
+    
+}
+.services-section{
+    
+    background-size:cover;
+    padding-bottom: 5%;
+}
+
+.inner-width {
+    width : 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding : 0 20px;
+    overflow :hidden;
+
+} 
+.section-title {
+    margin-bottom: 3%;
+    text-align : center;
+    color: rgb(68, 84, 106);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Calibri Light (Headings);
+   
+}
+.effect-title, .effect-title2, .effect-title3, .effect-title4, .effect-title5, .effect-title6{
+ 
+
+    animation-name:mymove;
+    animation-duration:3s;
+    
+}
+@-webkit-keyframes mymove {
+    50%{margin-top : 50px;}
+    
+}
+@keyframes mymove {
+    50%{margin-top : 50px;}
+    
+}
+.border {
+    width : 160px;
+    height : 2px;
+    background : #dfdfdf;
+    margin : 40px auto;
+}
+.services-container {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: center;
+}
+.service-box, .service-box2, .service-box3, .service-box4, .service-box5, .service-box6 {
+    max-width: 33.33%;
+    padding : 20px;
+    text-align : center;
+    color : rgb(68, 84, 106);
+    cursor : pointer;
+}
+.service-icon {
+    display : inline-block;
+    width : 70px;
+    height : 70px;
+    border : 3px solid red;
+    color : red;
+    transform : rotate(45deg);
+    margin-bottom: 30px;
+    margin-top : 16px;
+    transition : 0.3s linear;
+
+}
+.service-icon i {
+    line-height: 70px;
+    transform : rotate(-45deg);
+    font-size : 26px;
+}
+
+.service-box:hover .service-icon {
+    background : red;
+  color: white;
+}
+.service-box2:hover .service-icon {
+    background : red;
+  color: white;
+}
+.service-box3:hover .service-icon {
+    background : red;
+  color: white;
+}
+.service-box4:hover .service-icon {
+    background : red;
+  color: white;
+}
+.service-box5:hover .service-icon {
+    background : red;
+  color: white;
+}
+.service-box6:hover .service-icon {
+    background : red;
+  color: white;
+}
+.service-title, .service-title2,  .service-title3, .service-title4, .service-title5, .service-title6{
+    font-size : 18px;
+    text-transform: uppercase;
+    margin-bottom : 10px;
+}
+.service-desc {
+    font-size : 14px;
+}
+@media screen and (max-width:960px){
+    .service-box, .service-box2, .service-box3, .service-box4, .service-box5, .service-box6{
+        max-width : 45%;
+    }
+}
+@media screen and (max-width:768px){
+    .service-box, .service-box2, .service-box3, .service-box4, .service-box5, .service-box6{
+        max-width : 50%;
+    }
+}
+@media screen and (max-width:480px){
+    .service-box, .service-box2, .service-box3, .service-box4, .service-box5, .service-box6{
+        max-width : 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.section-title{
+    padding-top: 5%;
+}
+#motive{
+    padding-top: 2%;
+    scroll-behavior: smooth;
+}
+.effect-motive{
+    -webkit-animation : motive 5s;
+    animation : motive 5s;
+}
+@-webkit-keyframes motive {
+    50%{padding-right : 150px;}
+}
+@keyframes motive {
+    50%{padding-right : 150px;}
+}

@@ -1,0 +1,33 @@
+.each-slide > div {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    background-size : cover;
+    height : 640px;
+    margin-top:-10;
+    
+    
+  }
+  .each-slide span {
+    font-size : 20px;
+    color : #1a8cff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Times, serif;
+    font-size: 270%;
+    text-align : center;
+    padding-left: 30px;
+    padding-right : 30px;
+    padding-bottom: 5px;
+    
+    
+  }
+  .each-slide .branding{
+    margin-top:-15%;
+  }
+  
+  .slider{
+    width: 100%;
+  margin: 0 auto;
+  position : relative;
+ 
+  }
+  

@@ -1,0 +1,126 @@
+.contact-section{
+  margin-top: 7%;
+  font-family: "montserrat", sans-serif;
+  background-image: url(./pattern.png);
+  background-color: #F0F0F0;
+  padding: 40px 0;
+ 
+  
+  
+
+}
+.footer{
+  background-image: url(./pattern.png);
+  background-color: #F0F0F0;
+}
+
+#Contactus{
+  scroll-behavior: smooth;
+}
+
+.contact-section h1{
+  text-align: center ;
+  color : red;
+  opacity: 1;
+}
+.border{
+  width : 100px;
+  height : 10px;
+  background : #34495e;
+  margin : 40px auto;
+  opacity: 1;
+}
+
+.contact-form {
+  max-width:  700px;
+  margin: auto;
+  padding : 0 10px;
+  overflow :hidden;
+}
+
+.contactfg Input, .contactfg .contact-form-textarea {
+  display : block;
+  width : 100%;
+  box-sizing: border-box;
+  margin : 16px 0;
+  border : 0;
+  background: #111;
+  padding : 30px 40px;
+  outline : none;
+  color : #ddd;
+  transition : 0.5s;
+  opacity : 1;
+}
+
+.contact-form-text {
+  display : block;
+  width : 100%;
+  box-sizing: border-box;
+  margin : 16px 0;
+  border : 0;
+  background: #111;
+  padding : 20px 40px;
+  outline : none;
+  color : #ddd;
+  transition : 0.5s;
+  opacity : 1;
+}
+
+.contactfg Input:focus{
+  box-shadow : 0 0 10px 4px #34495e;
+  background: #111;
+  color : white;
+
+
+}
+.contactfg .contact-form-textarea:focus{
+  box-shadow : 0 0 10px 4px #34495e;
+  resize : none;
+  height : 120px;
+  background: #111;
+  color : white;
+  
+  
+}
+.contactfg .contact-form-btn{
+  float : right;
+  border : 0;
+  background: #34495e;
+  color : #fff;
+  padding : 9px 20px;
+  border-radius : 20px;
+  cursor : pointer;
+  transition : 0.5s;
+  width : 30%;
+}
+.contactfg .contact-form-btn:hover{
+  background: #2980b9;
+}
+
+.links-contactus {
+  padding-left : 6%;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color : #34495e;
+}
+.contact-info a:hover {
+  text-decoration: none;
+  color : blue;
+}
+@media screen and (max-width: 360px) {
+  .contact-section{
+    margin-top: 6%;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    background-color : black;
+    background-size: cover;
+    padding: 40px 30px;
+  
+  }
+  .contact-info {
+    
+  }
+
+}

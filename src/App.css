@@ -1,0 +1,137 @@
+
+body {
+  scroll-behavior: smooth;
+}
+.navitem-overlay{
+  z-index: "35"
+}
+.navlink-text{
+ 
+  color: 'white';
+  text-decoration: 'none';
+  text-transform : 'uppercase';
+  font-size : "90%";
+}
+
+
+
+.header{
+  height : 13%;
+  margin-top: 0%;
+  width : 100%;
+ 
+}
+
+@media screen and (max-width: 1051px){
+  
+  .header{
+      height : 13%;
+      width : 100%;
+  }
+  .nav-container{
+    padding-left : 10%;
+  }
+ 
+}
+
+/* and ends here */
+
+
+.home-section{
+ 
+  background-color : white !important;
+  color : white !important;
+  transition-duration: 1s;
+  
+}
+.items-parent{
+  background-color : white!important;
+  transition-duration: 6s;
+ 
+}
+/* before scrolling */
+.navlink-text {
+  color :red !important;
+}
+
+/* after scrolling */
+.home-section .items {
+   color : red !important;
+   height : 10% !important;
+   transition-duration: 6s;
+ 
+}
+
+.nav-container {
+  padding-left: "28%" !important;
+}
+/* css for navigation bar */
+
+@media screen and (max-width:960px){
+  .header {
+  
+    height : 16%;
+  }
+  .nav-container{
+     padding-left: 5% !important;
+     max-width: 100%;
+  }
+}
+@media screen and (max-width:768px){
+  .header {
+    
+    height : 16%;
+  
+  }
+  .nav-container{
+    padding-left: 10% !important;
+    max-width: 100%;
+ }
+}
+@media screen and (max-width:480px){
+  .header {
+    margin-top: -7%;
+    height : 16%;
+  }
+  .nav-container{
+    padding-left: 10% !important;
+    max-width: 100%;
+  }
+}
+
+
+
+
+.effect-slider{
+  -webkit-animation : slide 15s;
+  animation : slide 15s;
+}
+@-webkit-keyframes slide {
+  50%{padding-top : 150px;}
+}
+@keyframes slide {
+  50%{padding-top : 150px;}
+}
+.effect-slider1{
+  -webkit-animation : slide1 25s;
+  animation : slide 25s;
+}
+@-webkit-keyframes slide1 {
+  50%{padding-right : 150px;}
+}
+@keyframes slide1 {
+  50%{padding-right : 150px;}
+}
+.effect-slider2{
+  -webkit-animation : slide2 35s;
+  animation : slide 35s;
+}
+@-webkit-keyframes slide2 {
+  50%{padding-left : 150px;}
+}
+@keyframes slide2 {
+  50%{padding-left : 150px;}
+}
+.about-us .About{
+  font-family: Calibri Light (Headings);
+}

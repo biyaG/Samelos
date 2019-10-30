@@ -1,0 +1,30 @@
+.headerTitle{
+    position:"relative";
+    padding-top: -100%;
+}
+.control{
+    padding-top:-84%;
+    position: relative;
+}
+div.img {
+    margin: 5px;  
+    border: 1px solid #ccc;
+    float: left;
+    width: 30%;
+    margin-left : 13%;
+    margin-top: 7%;
+    
+}	
+
+
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    height : "10%"
+}

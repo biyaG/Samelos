@@ -1,0 +1,36 @@
+.section-comment{
+  padding-top: -0%;
+
+}
+.each-slide-comment > div {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    background-size : cover;
+    height : 250px;
+    margin-top:-10;
+    
+    
+  }
+  .each-slide-comment span {
+    padding-top : 3%;
+    font-size : 20px;
+    color : black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Times, serif;
+    font-size: 170%;
+    text-align : center;
+    padding-left: 30px;
+    padding-right : 30px;
+    margin-bottom: 15px;
+    
+    
+  }
+  
+  .sliderComment{
+    width: 100%;
+    
+  margin: 5% auto;
+  position : relative;
+ 
+  }
+  
